@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url('img/swirl.jpg');
+  /* https://www.awwwards.com/background-patterns-designs-and-resources-for-websites.html */
+}
+
+header {
+  width: 80vw;
+  background: linear-gradient(141deg, #fcc6ff 0%, #1fc8db 51%, #0fb8ad 75%);
+  margin: 10px auto;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+header h1 {
+  color: black;
+  font-family: 'Shrikhand', cursive;
+  margin-bottom: 0;
+}
+
+header h2 {
+  color: #39003d;
+  padding-left: 15px;
+}
+
+header h3 {
+  color: white;
+  padding-left: 30px;
+}
+
+a {
+  font-weight: bold;
+  color: #08726b;
+}
+
+a:hover {
+  color: #0dbfb3;
+}
+
+.wrapper {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.text {
+  width: 40vw;
+  margin-right: 5vw;
+}
+
+.images {
+  width: 35vw;
+  padding: 15px 0 0;
+}
+
+.images img {
+  width:100%;
+  border: 2px solid black;
+}
+
+.caption {
+  font-family: serif;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+footer {
+  width: 50vw;
+  margin: 0 auto;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 30px 0 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .text, .images {
+    width: 100%;
+  }
+}

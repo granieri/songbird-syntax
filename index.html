@@ -15,21 +15,31 @@
 
   <div class="wrapper">
     <article class="text">
-      <p>Vivamus semper ut libero et aliquet. Morbi quis arcu massa. Morbi eleifend auctor sem quis sodales. Etiam commodo mauris neque, eu sollicitudin sapien tristique quis. Aliquam sollicitudin vestibulum dignissim. Phasellus rhoncus, magna vel congue pretium, dui diam vestibulum neque, in mattis eros sapien sed tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus semper ullamcorper urna in ornare. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam posuere porta odio, vitae vehicula nulla bibendum nec. Donec et augue in justo viverra pharetra.</p>
+      <p>
+        Today we're looking at the article "<a href="https://www.nature.com/articles/nature04675">Recursive syntactic pattern learning in songbirds</a>" by Timothy Genter, Kimberly Fenn, Daniel Margoliashi, and Howard Nusbaum, which was published in <em>Nature</em> 440 in 2006. The article details a small study done on European starlings (<em>Sturnus vulgaris</em>, pictured), a songbird native to Europe and also found in North America following human introduction. According to <a href="https://www.allaboutbirds.org/guide/European_Starling/id">All About Birds</a>, published by the Cornell Lab or Ornithology, the starling is capable of producing a wide range of vocalizations, including warbles, whistles, chatter, trills, rattles, and mimicry of other birds, though this study focuses only on warble and rattle motifs.
+      </p>
 
-      <p>Quisque posuere, enim id eleifend ornare, massa diam fermentum massa, in iaculis leo erat in ligula. Pellentesque pharetra, ipsum eget ornare vulputate, erat nisl congue velit, ultricies pellentesque nisi velit eget erat. Vestibulum ipsum ligula, gravida accumsan placerat id, porttitor ac augue. Maecenas sollicitudin mi massa, iaculis aliquet dolor aliquet at. In vel est non ipsum dapibus pulvinar sed non lorem. Nullam ut neque nulla. Proin sit amet nunc ultrices, bibendum turpis vitae, accumsan sapien. Etiam at urna vulputate, pulvinar nulla ac, condimentum magna. Proin libero nibh, bibendum non tortor eu, egestas dictum lorem. Donec vestibulum, tellus id faucibus efficitur, augue elit commodo felis, sed tempor mauris tellus quis dolor. Integer pharetra turpis libero, eget tincidunt est ullamcorper sed. Mauris vel tortor id augue viverra vulputate quis quis dolor. Sed et volutpat est.</p>
+      <p>
+        Historically, linguists have theorized that all non-human languages can be categorized as having finite-state grammar&mdash;in other words, animals can only use regular languages. What makes human language unique, then, is the ability to use context-free grammar, which allows for recursion, also known as embedding, a process of inserting a syntactic structure into another. For example, it's easy for us to understand the sentence "I ate the apple that fell from the tree that they cut down", even though it includes clauses embedded inside clauses. Although the general theory has been that animal languages cannot accommodate this type of construction, some linguists maintain that some recursion is indeed possible in animal language, and that non-human creatures may not be strictly limited to languages that can expressed through a finite-state automaton.
+      </p>
 
-      <p>Proin finibus lorem in elit consectetur maximus. Pellentesque nunc ipsum, sollicitudin et turpis nec, fringilla tincidunt ligula. Nulla sed molestie massa. Integer elementum aliquet lectus vel tempus. Donec sollicitudin nibh quis libero lobortis auctor. Cras scelerisque, augue maximus accumsan molestie, nisl mauris vehicula velit, ut tincidunt nunc nunc consectetur ligula. Sed rhoncus sapien sit amet enim pulvinar, sit amet pellentesque libero tristique. Nulla eget ex sit amet nibh sagittis dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pulvinar, libero eu aliquam maximus, ipsum ipsum varius mi, vel semper urna elit bibendum leo. Fusce posuere augue nisl, eu euismod ante tincidunt vel. Cras sed ipsum ut lacus tempor mollis. Donec pellentesque sapien eu metus suscipit, non sollicitudin augue cursus.</p>
+      <p>
+        To test this hypothesis, researchers trained 11 European starlings to distinguish between warble/rattle patterns of the form (AB)<sup>n</sup> (regular) and patterns of the form A<sup>n</sup>B<sup>n</sup> (non-regular), where A is a recording of a warble and B a recording of a rattle. <em>Figure 1</em> shows examples of these pattern structures, while <em>Figure 2a and 2b</em> show spectrogram analysis of specific constructions. Of the 11 starlings, 9 were successfully able to distinguish between them, with some learning faster than others. Thus the results were sorted into three groups: fast learning, slow learning, and non-learning, as shown in <em>Figure 2c and 2d</em>. In these graph, d' represents the ability to distinguish between the patterns. This strongly suggests that starlings have the capacity to understand context-free languages, and not only regular languages.
+      </p>
+
+      <p>
+        Although the sample group was fairly small, it seems unlikely that these starlings were the only 9 starlings in the world capable of this distinction. Moreover, it seems unlikely that starlings are the only birds&mdash;or even the only animals&mdash;with the ability to recognize and extrapolate from context-free structures. This could have strong implications for biolinguistics; after all, this result forces us to wonder what it really is that makes human language unique.
+      </p>
     </article>
 
     <section class="images">
       <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/European_Starling_RWD_2015.jpg/1024px-European_Starling_RWD_2015.jpg" />
       <div class="caption"><strong>European Starling</strong> by Dick Daniels (2015; <a href="https://commons.wikimedia.org/wiki/File:European_Starling_RWD_2015.jpg">src</a>)</div>
 
-      <img src="https://media.nature.com/m685/nature-assets/nature/journal/v440/n7088/images/nature04675-f1.2.jpg" />
+      <img src="https://media.nature.com/m685/nature-assets/nature/journal/v440/n7088/images/nature04675-f1.2.jpg" class="padded" />
       <div class="caption"><strong>Figure 1</strong></div>
 
-      <img src ="https://media.nature.com/m685/nature-assets/nature/journal/v440/n7088/images/nature04675-f2.2.jpg" />
+      <img src ="https://media.nature.com/m685/nature-assets/nature/journal/v440/n7088/images/nature04675-f2.2.jpg" class="padded" />
       <div class="caption"><strong>Figure 2</strong></div>
     </section>
   </div>

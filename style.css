@@ -64,6 +64,12 @@ a:hover {
   box-shadow: 1px 1px 5px 0px rgba(133,133,133,1);
 }
 
+.padded {
+  padding: 0.2vw;
+  width: 34.6vw;
+  background: #fff;
+}
+
 .caption {
   font-family: serif;
   text-align: center;
